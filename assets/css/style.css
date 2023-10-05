@@ -1,0 +1,58 @@
+
+<img src="https://source.unsplash.com/random/400X601/1" alt="">
+<img src="https://source.unsplash.com/random/400X600/2" alt="">
+<img src="https://source.unsplash.com/random/400X600/9" alt="">
+<img src="https://source.unsplash.com/random/400X600/8" alt="">
+<img src="https://source.unsplash.com/random/400X600/7" alt="">
+<img src="https://source.unsplash.com/random/400X600/6" alt="">
+<img src="https://source.unsplash.com/random/400X600/5" alt="">
+<img src="https://source.unsplash.com/random/400X600/4" alt="">
+<img src="https://source.unsplash.com/random/400X600/3" alt="">
+
+/* ====================================================================
+                                RESET
+=====================================================================*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* ====================================================================
+                                HEADER
+=====================================================================*/
+
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 8px;
+    gap: 8px;    
+}
+
+div {
+    height: 600px;
+    overflow: hidden;
+    transition: all 700ms ease-in-out;
+}
+
+div:hover {
+    filter: grayscale();
+}
+
+
+
+
